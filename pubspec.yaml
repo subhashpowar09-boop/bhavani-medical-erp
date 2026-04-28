@@ -1,5 +1,5 @@
-name: bhavani_medicals
-description: Bhavani Medicals Billing App
+name: bhavani_medical_erp
+description: Bhavani Medicals ERP with Billing, Stock, GST
 version: 1.0.0+1
 
 environment:
@@ -8,16 +8,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
   pdf: ^3.10.7
   printing: ^5.11.1
-  path_provider: ^2.1.2
   intl: ^0.19.0
-  shared_preferences: ^2.2.2
-  url_launcher: ^6.2.5
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  flutter_slidable: ^3.0.1
 
 flutter:
   uses-material-design: true
